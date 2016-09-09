@@ -5,6 +5,7 @@ tiny program to dump raw http request
 
 ```shell
 > go get github.com/imzjy/httpdump
+> $GOPATH/bin/httpdump -h
 > $GOPATH/bin/httpdump
 ```
 
