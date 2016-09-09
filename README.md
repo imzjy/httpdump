@@ -4,8 +4,8 @@ tiny program to dump raw http request
 # usage
 
 ```shell
-$go get github.com/imzjy/httpdump
-$./bin/httpdump
+> go get github.com/imzjy/httpdump
+> $GOPATH/bin/httpdump
 ```
 
 # todo

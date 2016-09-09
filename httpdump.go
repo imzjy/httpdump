@@ -30,7 +30,6 @@ func main() {
 	flag.Parse()
 
 	addr := fmt.Sprintf(":%d", *port)
-	fmt.Println(addr)
 	s := &http.Server{
 		Addr:           addr,
 		Handler:        http.HandlerFunc(dumperHandler),
